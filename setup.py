@@ -8,8 +8,7 @@ setup(name='wdpassport_utils',
       author='0-duke, crypto-universe, JoshData',
       license='GPLv2',
       install_requires=[
-        'pyudev',
-        'py_sg @ git+https://github.com/crypto-universe/py_sg',
+        'pyudev'
       ],
       scripts=['wdpassport-utils.py'],
       )
